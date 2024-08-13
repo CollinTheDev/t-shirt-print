@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Area</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Admin Area</h1>
+    <input type="password" id="admin-code" placeholder="Enter admin code">
+    <button onclick="loginAdmin()">Login</button>
+    <div id="admin-content" style="display:none;">
+        <h2>Orders</h2>
+        <div id="order-logs"></div>
+    </div>
+    <script src="firebase-config.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
